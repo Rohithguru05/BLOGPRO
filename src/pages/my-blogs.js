@@ -39,7 +39,7 @@ export default function MyBlogs() {
         
         {blogs.length === 0 ? (
           <div className="text-center py-12 rounded-lg border border-dashed border-gray-300 dark:border-gray-600">
-            <p className="text-gray-500 mb-4">You haven't created any blogs yet.</p>
+            <p className="text-gray-500 mb-4">You have not created any blogs yet.</p>
             <Link
               href="/add"
               className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors"

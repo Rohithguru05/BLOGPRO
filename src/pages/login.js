@@ -64,7 +64,7 @@ export default function Login() {
           <div className={styles.footer}>
             {authType === 'login' ? (
               <p>
-                Don't have an account?{' '}
+                Do not have an account?{' '}
                 <button 
                   onClick={() => setAuthType('register')}
                   className={styles.linkButton}
