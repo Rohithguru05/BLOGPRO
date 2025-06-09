@@ -1,0 +1,21 @@
+/* src/components/MarkdownPreview.module.css */
+.markdownContent {
+  color: var(--color-text);
+}
+
+.markdownContent h1,
+.markdownContent h2,
+.markdownContent h3,
+.markdownContent h4 {
+  color: var(--color-text);
+}
+
+.markdownContent code {
+  background-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.markdownContent pre {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+}

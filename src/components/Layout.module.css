@@ -1,0 +1,20 @@
+/* components/Layout.module.css */
+.heroBanner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heroContent h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.heroContent p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Rest of your existing Layout.module.css */

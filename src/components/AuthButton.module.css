@@ -1,0 +1,37 @@
+/* src/components/AuthButton.module.css */
+.authContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.userAvatar {
+  border-radius: 50%;
+}
+
+.userName {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.authButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.authButton:hover {
+  color: var(--color-primary);
+}
+
+.authIcon {
+  font-size: 1rem;
+}
